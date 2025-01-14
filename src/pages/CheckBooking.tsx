@@ -59,6 +59,10 @@ export default function CheckBooking() {
     }
   };
 
+  if (error) {
+    console.log(error);
+  }
+
   const baseURL = "http://127.0.0.1:8000/storage/";
 
   return (
